@@ -9,8 +9,8 @@
 </head>
 <body>
 <!--header class used to make contacts bar which is removable-->
-    <div id="header" class="header">
-        <h1>‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ Phone:‎ ‎  08 * * *‎ ‎  * * * ‎ ‎ ‎ ‎ ‎ ‎ ‎ </h1>
+    <div id="header" class="contactsbar">
+        <h1>‎ ‎ ‎ ‎ ‎  ‎ ‎‎ ‎ Phone:‎ ‎  08 * * *‎ ‎  * * * ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎kimchicompany@mail.com </h1>
         <button class="close-btn" onclick="hideHeader()">X</button>
     </div>
         
@@ -19,14 +19,13 @@
         <img src="logo.png" alt="Logo" class="logo" onclick="location.href='index.html'" style="cursor: pointer;">
         <ul>
             <li><a href="dishes.html">Dishes</a></li>
-            <li><a href="">History</a></li>
-            <li><a href="">Variations</a></li>
-            <li><a href="">Buy Now</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="store.html">Buy Now</a></li>
         </ul>
     </div>
 <!--    background image which is visible between the navbar and the information content.-->
     <div class="background">
-        <img src="kimchiback.png" alt="kimchiback" class="center">
+        <img src="kimchiback.png" alt="background photo with Kimchi shown as main subject." class="center">
     </div>
     
     <div class="content">
@@ -34,12 +33,7 @@
             Kimchi is a traditional Korean side dish made from salted and fermented vegetables, most commonly napa cabbage and Korean radishes. It's known for its pungent, spicy, and sour flavors.<br />
 <br />
 
-<!--
-<b>What makes kimchi unique:</b><br />
-<br />
-•  Fermentation: <br />
-This is the key process that gives kimchi its distinctive flavor and nutritional benefits. Lacto-fermentation, specifically, produces lactic acid, which gives kimchi its sour taste and helps preserve the vegetables.<br />
--->
+
 <br />
 •  Ingredients:<br />
 Napa cabbage and Korean radishes are the most common base vegetables.
@@ -47,7 +41,7 @@ Other ingredients often include garlic, ginger, scallions, and gochugaru (Korean
 Fish sauce or other seafood products are sometimes added for umami flavor.<br />
 <br />
 •  Varieties:'<br />
-There are hundreds of different kimchi varieties, depending on the region, season, and specific ingredients used.<br />
+There are hundreds of different kimchi varieties, depending on the region, season, and specific ingredients used. These variations are listed on on the right. <br />
 <br />
 •  Cultural Significance: <br />
 Kimchi is a staple of Korean cuisine and has deep cultural significance. It's often served with every meal and is a symbol of Korean identity.<br />
@@ -58,5 +52,21 @@ Due to the fermentation process, kimchi is rich in probiotics, which are benefic
 
 </body>
 </html>
+
+<div class="imagelist">
+        <p class="image-caption"><b>Kimchi Variations</b></p>
+        <div class="image-item">
+            <img src="napacabbage.jpg" alt="Kimchi Variety 1">
+            <p class="image-caption">Spicy Napa Cabbage Kimchi<br /><br /></p>
+        </div>
+        <div class="image-item">
+            <img src="kaddugi.jpg" alt="Kimchi Variety 2">
+            <p class="image-caption">Radish Kimchi (Kkakdugi)<br /><br /></p>
+        </div>
+        <div class="image-item">
+            <img src="whitekimchi.jpg" alt="Kimchi Variety 3">
+            <p class="image-caption">White Kimchi (Baek Kimchi)<br /><br /></p>
+        </div>
+    </div>
 
 <!--Integrate grid layout and make it similar to mockup-->
