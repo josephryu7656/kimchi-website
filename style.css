@@ -143,9 +143,20 @@ body {
     width: 400px; /* Fixed width for image list */
 }
 
+
+.Store {
+    display: flex;
+    position: relative;
+    left:13%;
+    bottom: -300px;
+    flex-direction: row;
+    align-items: center;
+    width: 400px; /* Fixed width for image list */
+}
 /* Individual image items */
 .image-item {
     text-align: center;
+    margin-left: 50px;
     margin-bottom: 15px;
 }
 
@@ -158,7 +169,7 @@ body {
 
 /* Image descriptions */
 .image-caption {
-    font-size: 21px;
+    font-size: 26px;
     color: white;
     margin-top: 5px;
 }
@@ -197,4 +208,20 @@ body {
     font-size: 21px;
     color: white;
     margin-top: 5px;
+}
+
+.storeheader {
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    background-color: #1C1C1E;
+    width: 1000px;
+    position: relative;
+    top: 350px; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; /* Centers text inside the element */
+    box-sizing: border-box;
+    border-radius: 8px; /* Optional for rounded edges */
+}
 }
